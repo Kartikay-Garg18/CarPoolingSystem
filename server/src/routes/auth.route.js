@@ -10,6 +10,6 @@ router.route('/register').post(registerUser);
 router.route('/login').post(loginUser);
 
 // Route for getting current user information
-router.route('/current').get(authenticateUser, getCurrentUser);
+router.route('/profile').get(authenticateUser, getCurrentUser);
 
 module.exports = router;

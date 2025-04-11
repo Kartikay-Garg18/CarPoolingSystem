@@ -36,6 +36,11 @@ const rideSchema = new mongoose.Schema({
         },
         endLocation: {
             type: Location
+        },
+        seatsRequested: {
+            type: Number,
+            required: true,
+            default: 1,
         }
     }],
     startLocation: {
