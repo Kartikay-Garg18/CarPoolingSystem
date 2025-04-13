@@ -74,6 +74,17 @@ These routes allow users to register and manage their vehicles.
 
 ---
 
+## Environment Variables
+To run the project, the following environment variables should be set in a `.env` file:
+
+| Variable Name | Description                                      |
+|---------------|--------------------------------------------------|
+| `JWT_SECRET`  | Secret key used for generating JWT tokens.       |
+| `MONGODB_URI` | URI for connecting to the MongoDB database.      |
+| `MONGODB_DB`  | The name of the MongoDB database to use.         |
+
+---
+
 ## Usage
 - Once the server is running, use the REST API endpoints listed above to interact with the system.
 - Refer to the source files for further customization or enhancements.
